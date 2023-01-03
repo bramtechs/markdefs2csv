@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"brambasiel"
+	],
+	"copyright": "Copyright © 2023, brambasiel",
+	"description": "Write markdown definitions to csv file",
+	"license": "MIT",
+	"name": "markdef2csv"
+}

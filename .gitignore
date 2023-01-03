@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/markdef2csv
+markdef2csv.so
+markdef2csv.dylib
+markdef2csv.dll
+markdef2csv.a
+markdef2csv.lib
+markdef2csv-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
