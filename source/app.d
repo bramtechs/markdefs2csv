@@ -120,7 +120,6 @@ void main(string[] args)
 
     auto helpInfo = getopt(
         args,
-        std.getopt.config.required,
         "input|i", &input,
         "output|o", &output,
         "formatting|f", &keepFormat,
