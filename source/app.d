@@ -137,11 +137,16 @@ void main(string[] args)
         return;
     }
 
-    writeln("Parsing " ~ input);
+    if (input == output) {
+        writeln("Input and output file (" ~ input ~ ") cannot be the same!");
+        return;
+    }
+
 
     string content;
     try {
         content = readText(input);
+        writeln("Parsing " ~ input ~ "...");
     } catch (FileException e){
         writeln("Could not find file " ~ input ~ "!");
         return;
