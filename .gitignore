@@ -14,3 +14,4 @@ markdef2csv-test-*
 *.o
 *.obj
 *.lst
+markdefs2csv
